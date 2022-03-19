@@ -46,25 +46,14 @@
 
     <div class="container">
         <div data-pager-shell>
-            <ul class="Index">
-  
-  
-    <li>
-      <article class='ListView'>
-    <header class="title">
-      
-      <div class='ListMeta'>
-  <time datetime="2022-03-18T13:14:39.657Z" itemprop="datePublished">
-    2022-03-18
-  </time>
-  
-  
-</div>
-
+            <div>
+  <article class='ContentView'>
+    <header class='PageTitle'>
+        <h1></h1>
     </header>
-    <div>
-      
-        <h2 id="Step0-导入需要的库"><a href="#Step0-导入需要的库" class="headerlink" title="Step0:导入需要的库"></a>Step0:导入需要的库</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure>
+
+    <section>
+      <h2 id="Step0-导入需要的库"><a href="#Step0-导入需要的库" class="headerlink" title="Step0:导入需要的库"></a>Step0:导入需要的库</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> cv2</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure>
 
 <h2 id="读取数据"><a href="#读取数据" class="headerlink" title="读取数据"></a>读取数据</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#定义一个显示结果的函数</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">cvshow</span>(<span class="params">name,img</span>):</span><br><span class="line">    cv2.imshow(name,img)</span><br><span class="line">    cv2.waitKey(<span class="number">0</span>)</span><br><span class="line">    cv2.destroyAllWindows()    </span><br></pre></td></tr></table></figure>
 
@@ -606,14 +595,26 @@ Clipping input data to the valid range for imshow with RGB data ([0..1] for floa
 <h4 id="高通滤波"><a href="#高通滤波" class="headerlink" title="高通滤波"></a>高通滤波</h4><p>只保留高频，使图像细节增强</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
 
+
       
-    </div>
+
+    </section>
+    
+      <section class='ArticleMeta'>
+          <div>
+            发布于&nbsp;
+            <time datetime="2022-03-18T13:14:39.657Z" itemprop="datePublished">
+              2022-03-18
+            </time>
+          </div>
+          
+      </section>
+    
+    
 </article>
 
-    </li>
   
-</ul>
-
+</div>
 
             <footer>
     <div>© 2022 - Alcatraz </div>
